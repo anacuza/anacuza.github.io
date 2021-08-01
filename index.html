@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Meta tags-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--for mobile optimisation-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <!--Title-->
+        <title> Ana Cuza's Website </title>
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--Typography-->
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    </head>
+    <body data-spy='scroll' data-target='.navbar' data-offset="50">
+        <!--Preloader-->
+        <div id='preloader'>
+            <div id='status'>&nbsp;</div>
+
+        </div>
+        
+        <!--HEADER-->
+        <header>
+            <nav class='navbar navbar-fixed-top'>
+                        <div class='container'>
+                            <div class="collapse navbar-collapse">
+                            <!--Unordered list-->
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#home" class="smooth-scroll">Home</a></li>
+                                    <li><a href="#about" class="smooth-scroll" >About</a></li>
+                                    <li><a href="#work" class="smooth-scroll" >Work</a></li>
+                                    <li><a href="#newsletter" class="smooth-scroll" >Newsletter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--Home-->
+        <section id='home'>
+            <!--Background-->
+            <div id="bimg">
+                <img src="img/pattern1.png" alt="">
+            </div>
+            <!--Overlay-->
+            <div id='home-overlay'></div>
+            <!--Home Content-->
+            <div id='home-content'>
+                <div id='home-content-inner' class="text-left">
+
+                    <div id='home-heading'>
+                        <h1 id='home-heading-1'>Hi there, I'm   <span class="text-wrapper">
+                                                                    <span class="letters">ana cuza</span>
+                                                                </span><br>
+                        <h1 id='home-heading-2'>i create magic with <span> data, code, words and colors </span>. some call that data viz &#128073; i am looking for ways to expand that </h1><br>
+                    </div>
+
+                    <div id='home-text'>
+                        <p></p>
+                    </div>
+
+                    <div id='home-btn'>
+                        <a class='btn btn-general btn-home smooth-scroll' href='#work' title='Start Now' role='button'>View Work</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--Arrow Down-->
+            <a href='#about' id='arrow-down' class="smooth-scroll">
+                 <span class="glyphicon glyphicon-chevron-down"></span> 
+            </a>
+        </section>
+        <!--Home Ends-->
+
+        <!--About-->
+        <section id='about'>
+            <!--About Part 1-->
+            <div id='about-01'>
+                <div class='content-box-md'>
+                    <div class='container'>
+                        <div class='row'>
+                            <div id='left-side-about' class='col-md-6'>
+                                <p>move your cursor around for a drawing session &#128071; - currently experimenting with WebGL...</p>
+                            </div>
+                            <div class='col-md-6'>
+                                <div id='right-side-about'>
+                                    <h5>About Me</h5>
+                                    <p>i am a senior at university of michigan, studying statistics and computer science. i am currently a developer at <a href='https://artsengine.engin.umich.edu/feast/'>feast</a>, innovating the ways in which architecture students work with spatial data. on the side, i spend my time playing around with data visualizations, and dreaming up creative technologies</p>
+                                    <p>in a different life i did research in the mathematics department exploring <a href='https://www.overleaf.com/read/ddtdshkjzpdz'> origamis</a>, in a <a href='https://lab.csandvig.people.si.umich.edu/'>media lab</a> researching algorithmic literacy, and in an hci group building up simulations for the ways in which humans form teams.</p>
+                                    <p>i am also a writer of short stories, and creative nonfiction, who is still trying to gain the courage to publish her pieces (pronouns:she/her/hers). when i start getting too many ideas, you can find me making a mess with gouache or practicing yoga.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--About Part 1 Ends-->
+            <!--About Part 2-->
+            <div id='about-02'>
+                 <div class='content-box-md'>
+                    <div class='row'>
+                        <div class='col-md-4'>
+                            <div class='about-item text-center'>
+                                <a href='#'><i class='fa fa-instagram'></i>
+                                <h3>Instagram</h3>
+                                <p>climate change + hand-drawn dataviz.<br> some funny attempts</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class='col-md-4'>
+                            <div class='about-item text-center'>
+                                <a href='#'><i class='fa fa-linkedin'></i>
+                                <h3>Linkedin</h3>
+                                <p>a more professional look <br>at my experiences</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class='col-md-4'>
+                            <div class='about-item text-center'>
+                                <a href='#'><i class='fa fa-github'></i>
+                                <h3>Github</h3>
+                                <p>code code code</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <!--About Part 2 Ends-->
+        </section>
+        <!--About Ends-->
+
+        <!--Work-->
+        <section id='work'>
+            <div class='content-box-md'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-md-12'>
+                            <div class='work-heading'>
+                                <h5> My Work </h5>
+                                <p>hover over each projects to get a better idea - click to see videos on behance!</p>
+                                <p>website created by yours truly</p>
+                            </div>
+                        </div>
+
+                        <!--Portfolio Item Filter-->
+                        <div class='col-md-12'>
+                            <div id='isotope-filters'>
+                                <!--Isotope Plugin-->
+                                <button class='btn active' data-filter='*'><span>All</span>
+                                </button>
+                                <button class='btn' data-filter='.data-viz'><span>Data Viz</span>
+                                </button>
+                                <button class='btn' data-filter='.animation'><span>Animation</span>
+                                </button>
+                                <button class='btn' data-filter='.web-dev'><span>Web Dev</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Portfolio Wrapper-->
+            <section id='portfolio-wrapper'>
+                <div class='container-fluid'>
+                    <div class='row no-gutters'>
+                        <div id='isotope-container'>
+                            <div class='col-md-4 data-viz'>
+                                <!--Portfolio Item 01-->
+                                <div class='portfolio-item'>
+                                    <a href='https://www.behance.net/gallery/107000237/The-Color-of-Our-Money-ScrollyStory' target="_blank" title='The Shape of Money'>
+                                        <img height='230' src="video/portfolio/shapemoney.jpg" alt="The Shape of Money">
+                                        <div class='portf-item-overlay'>
+                                            <div class='portf-item-details text-center'>
+                                                <h3>Money+Climate Change</h3>
+                                                <span></span>
+                                                <p>a project completely fueled by my curiosity towards climate change, the scrollytelling process, and graphic design</p> <p style='font-size:18px;'>JS, Adobe Illustrator, Scrollytelling</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class='col-md-4 web-dev'>
+                                <!--Portfolio Item 02-->
+                                <div class='portfolio-item'>
+                                    <a href='https://www.behance.net/gallery/107001559/Graph-Simulation-of-Team-Formation' target="_blank"  title='Simulating Team formation'>
+                                        <img src="video/portfolio/teamgraph.jpg" alt="Simulating Team formation">
+                                        <div class='portf-item-overlay'>
+                                            <div class='portf-item-details text-center'>
+                                                <h3>HCI Simulation</h3>
+                                                <span></span>
+                                                <p>can we build a model for how people form teams, learn/teach and assign tasks? we created a graph simulation for that.</p>
+                                                <p style='font-size:18px;'>JS, D3.js, algorithms</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class='col-md-4 animation'>
+                                <!--Portfolio Item 03-->
+                                <div class='portfolio-item'>
+                                    <a href='https://www.behance.net/gallery/112470791/Coxs-Bazaar-Map-Data-Viz' target="_blank" title='Mapping Refugee Camps'>
+                                        <img src="video/portfolio/campmap.jpg" alt="Mapping Refugee Camps">
+                                        <div class='portf-item-overlay'>
+                                            <div class='portf-item-details text-center'>
+                                                <h3>Mapping Cox’s Bazaar</h3>
+                                                <span></span>
+                                                <p>develop a visualization for the team working at the ngo circle of blue. It gave them a quick way to visualize the camps in cox’s bazaar.</p>
+                                                <p style='font-size:18px'>OpenStreetMap, GeoJSON, Leaflet</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class='col-md-4 web-dev'>
+                                <!--Portfolio Item 04-->
+                                <div class='portfolio-item'>
+                                    <a href='https://www.behance.net/gallery/107001287/Exploring-Origamis-Python-simulation-of-paper-folding' target="_blank" title='Origami'>
+                                        <img src="video/portfolio/origami.jpg" alt="Origami">
+                                        <div class='portf-item-overlay' height="460">
+                                            <div class='portf-item-details text-center'>
+                                                <h3>Exploring Origamis</h3>
+                                                <span></span>
+                                                <p>origami simulation: illustrate the relationship between a moduli space and the fold angles of a paper with 2 folds </p>
+                                                <p style='font-size:18px'>Python, PyGame</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class='col-md-4 data-viz'>
+                                <!--Portfolio Item 05-->
+                                <div class='portfolio-item'>
+                                    <a href='https://www.behance.net/gallery/112470817/Earth-on-Fire-Digital-Illustration' target="_blank" title='Animation'>
+                                        <img src="video/portfolio/earth_fire.jpg" alt="Animation">
+                                        <div class='portf-item-overlay' height="460">
+                                            <div class='portf-item-details text-center'>
+                                                <h3>Digital Illustration</h3>
+                                                <span></span>
+                                                <p>I simply love using procreate, and creating animations</p>
+                                                <p style='font-size:18px'>After Effects, Procreate</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class='col-md-4 data-viz'>
+                                <!--Portfolio Item 06-->
+                                <div class='portfolio-item'>
+                                    <a href='https://www.behance.net/gallery/107000871/Pathways-to-mitigating-climate-change-Sankey-diagram' target="_blank" title='Sankey Diagram Climate Change Mitigation Pathways'>
+                                        <img src="video/portfolio/sankey.jpg" alt="Sankey Diagram Climate Change Mitigation Pathways">
+                                        <div class='portf-item-overlay' height="460">
+                                            <div class='portf-item-details text-center'>
+                                                <h3>D3.js Play</h3>
+                                                <span></span>
+                                                <p>Working through Amelia Wattenberger's textbook + recreating whatever examples i find interesting</p>
+                                                <p style='font-size:18px'>D3.js - A LOT OF IT, JQuery</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!--Work Ends-->
+
+        <!--Newsletter-->
+        <section id='newsletter'>
+
+             <div class='content-box-md'>
+
+                <div class='container'>
+
+                    <div class='row'>
+
+                        <div class='col-md-6'>
+                            <div class='newsletter-heading'>
+                                <h5>My Thoughts, My Creative Process</h5>
+                            </div>
+
+                            <div class='row'>
+
+                                <div class='col-md-12'>
+                                   <p>I have so so many question, so thought I might leave some of them here so more people could ponder them.
+                                   </p>
+                                </div>
+
+                            </div>
+
+                            <div class='row'>
+
+                                <div class='col-md-12'>
+                                    <p>
+                                    How should our technology practices change with the 6th extinction the world is going through? How can we develop data visualisations which lead people to action, when the current research on the field shows users don't really interact with them? How can we remain playful in our creation processes, while also looking the current social issues we face straight in the eye through the technologies we build?
+                                    </p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <div class='row'>
+
+                                <div class='col-md-12'>
+                                    <p>
+                                    I have always been a perfectionist, but technology and coding has helped me regain my comfort with prototyping. This website will forever remain imperfect, because it will always be one of my playgrounds. So thank you for visiting my little playground!
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                         <div class='col-md-6'>
+                            <div class='table-subscription'>
+                                <div class='newsletter-subscription'>
+                                    <h4>With all the data viz I create around climate change, I also write a newsletter on all my thoughts at the intersection of creativity and climate change solutions.</h4>
+                                    <div id='subscribe-btn'>
+                                        <a class='btn btn-general btn-subscribe' href='#about' title='Start Now' role='button'>Subscribe</a>
+                                    </div>
+                                </div>
+
+                                <div class='eye-animation'>
+
+                                    <div class='shut'>
+                                        <span><div id='subscribe-btn'><a class='btn btn-general btn-subscribe' href='#about' title='Start Now' role='button'>Subscribe</a></div></span>
+                                    </div>
+                                    <div class='ball'>
+                                    </div>
+
+                                </div>
+
+                            </br>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!--Newsletter Ends-->
+
+
+
+
+        <!--Temporary space-->
+        <section><br><br><br><br><br><br></section>
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--Bootstrap JS-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!--Animate Letters-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <!--Sketch.js - mouse animation-->
+        <script src="js/sketch.min.js"></script>
+        <!--Isotope for filtering feature Work sections-->
+        <script src="js/isotope.pkgd.min.js"></script>
+        <!--Custom JS-->
+        <script src="js/script.js"></script>
+
+    <!--     <script>
+            /*=======================================
+                    Eye Animation
+            =========================================*/
+
+            var ball = document.getElementsByClassName('ball');
+            document.onmousemove = function() {
+            //event.clientX => get the horizontal coordinate of the mouse
+                var x = event.clientX * 100 /window.innerWidth + "%";
+                var y = event.clientY * 100 /window.innerHeight + "%";
+
+                ball.style.left = x;
+                ball.style.top = y;  
+
+    }
+        </script> -->
+
+
+    </body>
+</html>
